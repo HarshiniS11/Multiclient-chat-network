@@ -1,0 +1,63 @@
+2026-11-17 19:24:50,903 INFO Chat server v1.0 listening on 0.0.0.0:5000 (max_clients=200 idle_timeout=300.0s rate_limit=off outq=256)
+2026-11-17 19:25:11,821 INFO CONNECT 127.0.0.1:54339
+2026-11-17 19:25:33,186 INFO CONNECT 127.0.0.1:61911
+2026-11-17 19:26:38,341 INFO REGISTER alice from 127.0.0.1:61911 (online=1)
+2026-11-17 19:26:44,406 INFO REGISTER bob from 127.0.0.1:54339 (online=2)
+2026-11-17 19:27:35,561 INFO JOIN alice -> lab (members=1)
+2026-11-17 19:27:39,271 INFO JOIN bob -> lab (members=2)
+2026-11-17 19:27:45,926 INFO ROOMMSG alice -> lab (10 chars, 1 recipients)
+2026-11-17 19:28:45,461 INFO DISCONNECT alice (127.0.0.1) (online=1)
+2026-11-17 19:29:02,083 INFO DISCONNECT bob (127.0.0.1) (online=0)
+2026-11-17 20:47:08,766 INFO Chat server v1.0 listening on 0.0.0.0:5000 (max_clients=200 idle_timeout=300.0s rate_limit=off outq=256)
+2026-11-17 20:47:27,965 INFO Server shutting down
+2026-11-17 20:47:31,612 INFO CONNECT 127.0.0.1:56386
+2026-11-17 20:47:33,254 INFO REGISTER alice from 127.0.0.1:56386 (online=1)
+2026-11-17 20:47:59,943 INFO CONNECT 127.0.0.1:56390
+2026-11-17 20:48:02,253 INFO REGISTER bob from 127.0.0.1:56390 (online=2)
+2026-11-17 20:48:38,315 INFO JOIN bob -> room (members=1)
+2026-11-17 20:48:45,014 INFO JOIN alice -> room (members=2)
+2026-11-17 20:50:01,009 INFO ROOMMSG alice -> room (15 chars, 1 recipients)
+2026-11-17 20:52:34,305 INFO DISCONNECT alice (127.0.0.1) (online=1)
+2026-11-17 20:52:43,954 INFO DISCONNECT bob (127.0.0.1) (online=0)
+2026-11-18 08:52:58,178 INFO Chat server v1.0 listening on 0.0.0.0:5000 (max_clients=200 idle_timeout=300.0s rate_limit=off outq=256)
+2026-11-18 08:59:49,386 INFO Chat server v1.0 listening on 0.0.0.0:5000 (max_clients=200 idle_timeout=300.0s rate_limit=off outq=256)
+2026-11-18 09:00:33,914 INFO CONNECT 127.0.0.1:58450
+2026-11-18 09:00:38,265 INFO REGISTER alice from 127.0.0.1:58450 (online=1)
+2026-11-18 09:00:54,316 INFO CONNECT 127.0.0.1:50435
+2026-11-18 09:00:57,294 INFO REGISTER bob from 127.0.0.1:50435 (online=2)
+2026-11-18 09:02:42,443 INFO JOIN alice -> room (members=1)
+2026-11-18 09:03:07,138 INFO JOIN bob -> room (members=2)
+2026-11-18 09:05:45,385 INFO CONNECT 10.71.9.225:54491
+2026-11-18 09:05:52,136 INFO DISCONNECT - (10.71.9.225) (online=2)
+2026-11-18 09:06:02,157 INFO DISCONNECT alice (127.0.0.1) (online=1)
+2026-11-18 09:06:09,121 INFO CONNECT 10.71.9.225:54495
+2026-11-18 09:06:14,488 INFO REGISTER Alice from 10.71.9.225:54495 (online=2)
+2026-11-18 09:06:32,296 INFO JOIN Alice -> room (members=2)
+2026-11-18 09:06:52,428 INFO ROOMMSG Alice -> room (5 chars, 1 recipients)
+2026-11-18 09:08:07,139 WARNING TIMEOUT bob (idle > 300.0s)
+2026-11-18 09:08:07,141 INFO DISCONNECT bob (127.0.0.1) (online=1)
+2026-11-18 09:09:23,307 INFO CONNECT 10.71.9.225:54509
+2026-11-18 09:09:29,262 INFO REGISTER Bob from 10.71.9.225:54509 (online=2)
+2026-11-18 09:10:09,136 INFO PRIVMSG Bob -> Alice (3 chars)
+2026-11-18 09:11:52,429 WARNING TIMEOUT Alice (idle > 300.0s)
+2026-11-18 09:11:52,430 INFO DISCONNECT Alice (10.71.9.225) (online=1)
+2026-11-18 09:15:09,137 WARNING TIMEOUT Bob (idle > 300.0s)
+2026-11-18 09:15:09,138 INFO DISCONNECT Bob (10.71.9.225) (online=0)
+2026-11-18 09:21:59,184 INFO Server shutting down
+2026-11-18 09:22:06,504 INFO Chat server v1.0 listening on 0.0.0.0:5000 (max_clients=200 idle_timeout=300.0s rate_limit=off outq=256)
+2026-11-18 09:22:18,814 INFO CONNECT 10.71.9.225:62029
+2026-11-18 09:22:21,820 INFO REGISTER Alice from 10.71.9.225:62029 (online=1)
+2026-11-18 09:23:01,433 INFO CONNECT 10.71.9.225:62030
+2026-11-18 09:23:08,309 INFO REGISTER Bob from 10.71.9.225:62030 (online=2)
+2026-11-18 09:24:11,392 INFO JOIN Alice -> room (members=1)
+2026-11-18 09:24:33,721 INFO ROOMMSG Alice -> room (5 chars, 0 recipients)
+2026-11-18 09:25:14,265 INFO PRIVMSG Alice -> Bob (5 chars)
+2026-11-18 09:26:21,643 WARNING connection error Alice: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-11-18 09:26:21,654 WARNING connection error Bob: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-11-18 09:26:21,843 INFO DISCONNECT Alice (10.71.9.225) (online=1)
+2026-11-18 09:26:21,907 INFO DISCONNECT Bob (10.71.9.225) (online=0)
+2026-11-18 09:28:13,884 INFO CONNECT 10.71.9.225:56381
+2026-11-18 09:28:33,232 INFO REGISTER Harshini from 10.71.9.225:56381 (online=1)
+2026-11-18 09:33:33,232 WARNING TIMEOUT Harshini (idle > 300.0s)
+2026-11-18 09:33:33,235 INFO DISCONNECT Harshini (10.71.9.225) (online=0)
+2026-11-18 18:49:00,407 INFO Chat server v1.0 listening on 0.0.0.0:5099 (max_clients=200 idle_timeout=300.0s rate_limit=off outq=256)
